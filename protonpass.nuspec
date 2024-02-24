@@ -54,8 +54,14 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
 Proton Pass is a cloud based password manager solution with end-to-end encryption.
 
-It also generates unique email aliases, preventing your true email address from being used to track you, exposed in data breaches, or targeted for spam.</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+It also generates unique email aliases, preventing your true email address from being used to track you, exposed in data breaches, or targeted for spam.
+
+The Proton Pass desktop app for Windows, includes offline access. To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.
+
+**Please note:** This app is an early access version that you can only use, if you have been notified of its availability via an official e-mail to your own Proton Pass account.</description>
+    <releaseNotes>Today we are happy to grant you early access to our new Proton Pass Windows app, which includes offline access, one of the most popular requests from the Proton community. You can now start managing your passwords and other items more conveniently in a dedicated application.
+
+To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
