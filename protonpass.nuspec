@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.14.0</version>
+    <version>1.14.3</version>
     <packageSourceUrl>https://github.com/wadoli/chocolatey-pkg-protonpass</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>wadoli</owners>
@@ -49,19 +49,23 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>proton pass password manager security</tags>
-    <summary>https://github.com/wadoli/chocolatey-pkg-cuetools</summary>
+    <summary>Proton Pass secures your passwords and identity with end-to-end encryption.</summary>
     <description># Proton Pass desktop application
 
 Proton Pass is a cloud based password manager solution with end-to-end encryption.
 
 It also generates unique email aliases, preventing your true email address from being used to track you, exposed in data breaches, or targeted for spam.
 
-The Proton Pass desktop app for Windows, includes offline access. To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.
+The Proton Pass desktop app for Windows, includes offline access. To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.</description>
+    <releaseNotes>https://www.reddit.com/r/ProtonPass/comments/1b2zb84/the_proton_pass_windows_app_is_now_available_for/
 
-**Please note:** This app is an early access version that you can only use, if you have been notified of its availability via an official e-mail to your own Proton Pass account.</description>
-    <releaseNotes>Today we are happy to grant you early access to our new Proton Pass Windows app, which includes offline access, one of the most popular requests from the Proton community. You can now start managing your passwords and other items more conveniently in a dedicated application.
+    The Proton Pass Windows app is now available for everyone
 
-To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.</releaseNotes>
+Hi everyone,
+
+We have some exciting news to share! The Proton Pass desktop application for Windows, a top-requested feature by our community, is now available and includes an offline view for subscribers.
+
+Activate offline mode by going to Settings > Security > Enable offline access</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
