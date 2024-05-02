@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.14.3</version>
+    <version>1.16.7</version>
     <packageSourceUrl>https://github.com/wadoli/chocolatey-pkg-protonpass</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>wadoli</owners>
@@ -57,15 +57,7 @@ Proton Pass is a cloud based password manager solution with end-to-end encryptio
 It also generates unique email aliases, preventing your true email address from being used to track you, exposed in data breaches, or targeted for spam.
 
 The Proton Pass desktop app for Windows, includes offline access. To activate offline mode, Go to settings > Enable offline mode, you’ll be asked to enter your password.</description>
-    <releaseNotes>https://www.reddit.com/r/ProtonPass/comments/1b2zb84/the_proton_pass_windows_app_is_now_available_for/
-
-    The Proton Pass Windows app is now available for everyone
-
-Hi everyone,
-
-We have some exciting news to share! The Proton Pass desktop application for Windows, a top-requested feature by our community, is now available and includes an offline view for subscribers.
-
-Activate offline mode by going to Settings > Security > Enable offline access</releaseNotes>
+    <!--<releaseNotes></releaseNotes>-->
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
